@@ -510,6 +510,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
+.left-6 {
+  left: 1.5rem;
+}
+
 .right-6 {
   right: 1.5rem;
 }
@@ -573,12 +577,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 4rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
 
-.max-w-full {
-  max-width: 100%;
+.max-w-6xl {
+  max-width: 72rem;
 }
 
 .flex-1 {
@@ -920,6 +928,10 @@ body {
 @media (min-width: 640px) {
   .sm\:w-auto {
     width: auto;
+  }
+
+  .sm\:self-center {
+    align-self: center;
   }
 }
 
